@@ -1,0 +1,5 @@
+2025-11-26 18:44:31 [com.xxl.job.core.thread.JobThread#run]-[133]-[xxl-job, JobThread-2-1764153871260] <br>----------- xxl-job job execute start -----------<br>----------- Param:
+2025-11-26 18:44:31 [com.xxl.job.core.handler.impl.GlueJobHandler#execute]-[25]-[xxl-job, JobThread-2-1764153871260] ----------- glue.version:1764148316000 -----------
+2025-11-26 18:44:31 [sun.reflect.NativeMethodAccessorImpl#invoke0]-[-2]-[xxl-job, JobThread-2-1764153871260] XXL-JOB, Hello World.
+2025-11-26 18:44:31 [com.xxl.job.core.thread.JobThread#run]-[179]-[xxl-job, JobThread-2-1764153871260] <br>----------- xxl-job job execute end(finish) -----------<br>----------- Result: handleCode=200, handleMsg = null
+2025-11-26 18:44:31 [com.xxl.job.core.thread.TriggerCallbackThread#callbackLog]-[197]-[xxl-job, executor TriggerCallbackThread] <br>----------- xxl-job job callback finish.

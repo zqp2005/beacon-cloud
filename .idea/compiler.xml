@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="beacon-smsgateway" />
+        <module name="beacon-push" />
+        <module name="beacon-api" />
+        <module name="beacon-common" />
+        <module name="beacon-cache" />
+        <module name="beacon-test" />
+        <module name="beacon-strategy" />
+        <module name="beacon-webmaster" />
+        <module name="beacon-search" />
+        <module name="beacon-monitor" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="beacon-api" options="-parameters" />
+      <module name="beacon-cache" options="-parameters" />
+      <module name="beacon-common" options="" />
+      <module name="beacon-monitor" options="-parameters" />
+      <module name="beacon-push" options="-parameters" />
+      <module name="beacon-search" options="-parameters" />
+      <module name="beacon-smsgateway" options="-parameters" />
+      <module name="beacon-strategy" options="-parameters" />
+      <module name="beacon-test" options="-parameters" />
+      <module name="beacon-webmaster" options="-parameters" />
+    </option>
+  </component>
+</project>

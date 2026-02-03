@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: beacon-test
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.205.1:8848
+  datasource:
+    driver-class-name: org.gjt.mm.mysql.Driver
+    url: jdbc:mysql://192.168.205.130:3306/beacon-cloud?characterEncoding=utf-8
+    username: root
+    password: 123456
+server:
+  port: 20000
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
